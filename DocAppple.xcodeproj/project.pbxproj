@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED0A4FA62D44713200C159EA /* MySQLKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FA52D44713200C159EA /* MySQLKit */; };
+		ED0A4FAA2D44754100C159EA /* AladinApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A4FA92D44754100C159EA /* AladinApi.swift */; };
+		ED0A4FB02D44F99000C159EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED0A4FAF2D44F99000C159EA /* GoogleService-Info.plist */; };
+		ED0A4FB32D44FC5400C159EA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FB22D44FC5400C159EA /* FirebaseAnalytics */; };
+		ED0A4FB52D44FC5400C159EA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FB42D44FC5400C159EA /* FirebaseAuth */; };
+		ED0A4FB72D44FC5400C159EA /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FB62D44FC5400C159EA /* FirebaseCrashlytics */; };
+		ED0A4FB92D44FC5400C159EA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FB82D44FC5400C159EA /* FirebaseFirestore */; };
+		ED0A4FBB2D44FC5400C159EA /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FBA2D44FC5400C159EA /* FirebaseFunctions */; };
+		ED0A4FBD2D44FC5400C159EA /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FBC2D44FC5400C159EA /* FirebaseMessaging */; };
+		ED0A4FBF2D44FC5400C159EA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ED0A4FBE2D44FC5400C159EA /* FirebaseStorage */; };
+		ED129AC72D45582A0041CCE0 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED129AC62D45581B0041CCE0 /* Secrets.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ED0446C52D40D3D7006C3EFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +41,9 @@
 		ED0446B42D40D3D5006C3EFF /* DocAppple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocAppple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0446C42D40D3D7006C3EFF /* DocApppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocApppleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0446CE2D40D3D7006C3EFF /* DocApppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocApppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0A4FA92D44754100C159EA /* AladinApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AladinApi.swift; sourceTree = "<group>"; };
+		ED0A4FAF2D44F99000C159EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED129AC62D45581B0041CCE0 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +62,11 @@
 			path = DocApppleUITests;
 			sourceTree = "<group>";
 		};
+		ED129AC32D4546000041CCE0 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0A4FB32D44FC5400C159EA /* FirebaseAnalytics in Frameworks */,
+				ED0A4FB72D44FC5400C159EA /* FirebaseCrashlytics in Frameworks */,
+				ED0A4FBD2D44FC5400C159EA /* FirebaseMessaging in Frameworks */,
+				ED0A4FB52D44FC5400C159EA /* FirebaseAuth in Frameworks */,
+				ED0A4FBB2D44FC5400C159EA /* FirebaseFunctions in Frameworks */,
+				ED0A4FBF2D44FC5400C159EA /* FirebaseStorage in Frameworks */,
+				ED0A4FB92D44FC5400C159EA /* FirebaseFirestore in Frameworks */,
+				ED0A4FA62D44713200C159EA /* MySQLKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +105,14 @@
 		ED0446AB2D40D3D5006C3EFF = {
 			isa = PBXGroup;
 			children = (
+				ED129AC32D4546000041CCE0 /* Models */,
+				ED0A4FA72D4471AB00C159EA /* Api */,
 				ED0446B62D40D3D5006C3EFF /* DocAppple */,
 				ED0446C72D40D3D7006C3EFF /* DocApppleTests */,
 				ED0446D12D40D3D7006C3EFF /* DocApppleUITests */,
 				ED0446B52D40D3D5006C3EFF /* Products */,
+				ED0A4FAF2D44F99000C159EA /* GoogleService-Info.plist */,
+				ED129AC62D45581B0041CCE0 /* Secrets.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +124,14 @@
 				ED0446CE2D40D3D7006C3EFF /* DocApppleUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0A4FA72D4471AB00C159EA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				ED0A4FA92D44754100C159EA /* AladinApi.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +151,18 @@
 			);
 			fileSystemSynchronizedGroups = (
 				ED0446B62D40D3D5006C3EFF /* DocAppple */,
+				ED129AC32D4546000041CCE0 /* Models */,
 			);
 			name = DocAppple;
 			packageProductDependencies = (
+				ED0A4FA52D44713200C159EA /* MySQLKit */,
+				ED0A4FB22D44FC5400C159EA /* FirebaseAnalytics */,
+				ED0A4FB42D44FC5400C159EA /* FirebaseAuth */,
+				ED0A4FB62D44FC5400C159EA /* FirebaseCrashlytics */,
+				ED0A4FB82D44FC5400C159EA /* FirebaseFirestore */,
+				ED0A4FBA2D44FC5400C159EA /* FirebaseFunctions */,
+				ED0A4FBC2D44FC5400C159EA /* FirebaseMessaging */,
+				ED0A4FBE2D44FC5400C159EA /* FirebaseStorage */,
 			);
 			productName = DocAppple;
 			productReference = ED0446B42D40D3D5006C3EFF /* DocAppple.app */;
@@ -195,6 +246,10 @@
 			);
 			mainGroup = ED0446AB2D40D3D5006C3EFF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ED0A4FA42D44713200C159EA /* XCRemoteSwiftPackageReference "mysql-kit" */,
+				ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = ED0446B52D40D3D5006C3EFF /* Products */;
 			projectDirPath = "";
@@ -212,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED129AC72D45582A0041CCE0 /* Secrets.plist in Resources */,
+				ED0A4FB02D44F99000C159EA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0A4FAA2D44754100C159EA /* AladinApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.HwiOS.DocAppple;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.HwiiOS.DocApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.HwiOS.DocAppple;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.HwiiOS.DocApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +616,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED0A4FA42D44713200C159EA /* XCRemoteSwiftPackageReference "mysql-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/mysql-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.0;
+			};
+		};
+		ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED0A4FA52D44713200C159EA /* MySQLKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FA42D44713200C159EA /* XCRemoteSwiftPackageReference "mysql-kit" */;
+			productName = MySQLKit;
+		};
+		ED0A4FB22D44FC5400C159EA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		ED0A4FB42D44FC5400C159EA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ED0A4FB62D44FC5400C159EA /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		ED0A4FB82D44FC5400C159EA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ED0A4FBA2D44FC5400C159EA /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		ED0A4FBC2D44FC5400C159EA /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		ED0A4FBE2D44FC5400C159EA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0A4FB12D44FC5400C159EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED0446AC2D40D3D5006C3EFF /* Project object */;
 }
