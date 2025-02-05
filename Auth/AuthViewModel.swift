@@ -87,7 +87,8 @@ class AuthViewModel: ObservableObject {
             }
         }
     }
-
+    
+    
     /// 🔹 로그아웃
     func logout() {
         do {
