@@ -9,7 +9,7 @@ struct DocAppleApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ProfileView()
+                ContentView()
                     .environmentObject(authViewModel)
             }
         }

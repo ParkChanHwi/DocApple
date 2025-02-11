@@ -1,0 +1,33 @@
+# Xcode 관련
+DerivedData/
+xcuserdata/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcassets
+
+# Swift Package Manager
+.swiftpm
+Package.resolved
+.build/
+
+# CocoaPods 관련
+Pods/
+Podfile.lock
+
+# Firebase 및 API Secrets
+GoogleService-Info.plist  # Firebase API 키
+Secrets.plist  # 🔹 알라딘 API 키 저장된 파일
+*.pem  # 인증서 파일
+*.mobileprovision  # 프로비저닝 프로파일
+*.p8  # Apple Push Notification Key
+*.p12 # Apple Push Certificate
+
+# 시스템 파일
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn

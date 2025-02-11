@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8BC4366D3238C7D91B42368D /* Pods_DocApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA389631BC910F84A1326534 /* Pods_DocApple.framework */; };
 		ED0A4FAA2D44754100C159EA /* AladinApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A4FA92D44754100C159EA /* AladinApi.swift */; };
+		EDC52D3A2D5B70E400439CB1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EDC52D392D5B70E400439CB1 /* .gitignore */; };
 		EDDDAF8E2D50C542003C011B /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDAF8D2D50C542003C011B /* GoogleSignIn.framework */; };
 		EDDDAF902D50C5B1003C011B /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDAF8F2D50C5B1003C011B /* GoogleUtilities.framework */; };
 		EDDDB0342D50E951003C011B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDDDB02C2D50E27A003C011B /* GoogleService-Info.plist */; };
@@ -41,6 +42,7 @@
 		ED0446CE2D40D3D7006C3EFF /* DocAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0A4FA92D44754100C159EA /* AladinApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AladinApi.swift; sourceTree = "<group>"; };
 		ED129AC62D45581B0041CCE0 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		EDC52D392D5B70E400439CB1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EDDDAF8D2D50C542003C011B /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDAF8F2D50C5B1003C011B /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDB02C2D50E27A003C011B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		ED0446AB2D40D3D5006C3EFF = {
 			isa = PBXGroup;
 			children = (
+				EDC52D392D5B70E400439CB1 /* .gitignore */,
 				EDDDB02C2D50E27A003C011B /* GoogleService-Info.plist */,
 				EDE240B72D4E7616000399E9 /* Assets.xcassets */,
 				EDE240AC2D4E741F000399E9 /* main */,
@@ -331,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC52D3A2D5B70E400439CB1 /* .gitignore in Resources */,
 				EDDDB0342D50E951003C011B /* GoogleService-Info.plist in Resources */,
 				EDE240B82D4E7616000399E9 /* Assets.xcassets in Resources */,
 			);
